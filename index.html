@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
+   
       <!-- Шапка -->
       <header class="navigation">
+         <div class="container">
         <nav>
           <a class="link logo" href="index.html">
             <span class="logo-highlight">Web</span>Studio
@@ -36,15 +37,17 @@
             <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </div>
         </nav>
+        </div>
       </header>
       <!-- Main -->
       <main>
-        <section class="hero flex-container container flex-c">
+        <section class="hero">
           <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button">Заказать услугу</button>
-        </section>
+          </section>
         <!-- Features -->
         <section class="features">
+          <div class="container flex-conteiner flex-c">
           <ul class="list">
             <li>
               <h3 class="page-title-item">Внимание к деталям</h3>
@@ -53,8 +56,6 @@
                 формированию позиции.
               </p>
             </li>
-          </ul>
-          <ul class="list">
             <li>
               <h3 class="page-title-item">Пунктуальность</h3>
               <p>
@@ -62,8 +63,6 @@
                 кадров влечет за собой.
               </p>
             </li>
-          </ul>
-          <ul class="list">
             <li>
               <h3 class="page-title-item">Планирование</h3>
               <p>
@@ -71,8 +70,6 @@
                 степени обуславливает.
               </p>
             </li>
-          </ul>
-          <ul class="list">
             <li>
               <h3 class="page-title-item">Современные технологии</h3>
               <p>
@@ -81,43 +78,44 @@
               </p>
             </li>
           </ul>
+          </div>
         </section>
         <section class="works">
+          <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="list image-grid">
             <li><img src="./images/features1.jpg" alt="Проектирование" /></li>
             <li><img src="./images/features2.jpg" alt="Дизайн" /></li>
             <li><img src="./images/features3.jpg" alt="Редакция" /></li>
           </ul>
+          </div>
         </section>
-
         <section class="our-team">
+          <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <div class="flex-container">
-            <ul class="list team-card">
-              <li><img src="./images/photo1.jpg" alt="Игорь Демьяненко" /></li>
-              <li><h3 class="person">Игорь Демьяненко</h3></li>
-              <li><p class="team-item">Product Designer</p></li>
-            </ul>
-            <ul class="list team-card">
+            <ul class="list team-card team-card-discription">
               <li>
-                <img src="./images/photo2.jpg" alt="Ольга Репина" width="270" />
+                <img src="./images/photo1.jpg" alt="Игорь Демьяненко" />
+                <h3 class="person">Игорь Демьяненко</h3>
+                <p class="team-item">Product Designer</p>
               </li>
-              <li><h3 class="person">Ольга Репина</h3></li>
-              <li><p class="team-item">Frontend Developer</p></li>
-            </ul>
-            <ul class="list team-card">
+              <li>
+                <img src="./images/photo2.jpg" alt="Ольга Репина"/>
+                <h3 class="person">Ольга Репина</h3>
+                <p class="team-item">Frontend Developer</p>
+              </li>
               <li>
                 <img src="./images/photo3.jpg" alt="Николай Тарасов" />
+                <h3 class="person">Николай Тарасов</h3>
+                <p class="team-item">Marketing</p>
               </li>
-              <li><h3 class="person">Николай Тарасов</h3></li>
-              <li><p class="team-item">Marketing</p></li>
+              <li>
+                <img src="./images/photo4.jpg" alt="Михаил Ермаков"/>
+                <h3 class="person">Михаил Ермаков</h3>
+                <p class="team-item">UI Designer</p>
+              </li>
             </ul>
-            <ul class="list team-card">
-              <li><img src="./images/photo4.jpg" alt="" width="270" /></li>
-              <li><h3 class="person">Михаил Ермаков</h3></li>
-              <li><p class="team-item">UI Designer</p></li>
-            </ul>
+        
           </div>
         </section>
       </main>

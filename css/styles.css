@@ -75,12 +75,22 @@ address {
     justify-content: space-between;
 }
 
+.flex-c {
+    justify-content: center;
+    align-items: center;
+}
+
+.features-flex-container {
+    display: inline-flex;
+}
+
 .contacts {
     display: inline-flex;
     margin-left: 280px;
 }
 
 .contacts .link {
+    font-size: 14px;
     color: var(--secondary-color);
 }
 
@@ -95,25 +105,18 @@ address {
 }
 
 .item .link {
+    font-size: 14px;
     list-style: none;
     text-decoration: none;
     display: block;
 }
 
-.flex-c {
-    justify-content: center;
-    align-items: center;
-}
-
 .hero {
-    width: 100vw;
-    position: relative;
-    left: 49%;
-    margin-left: -50vw;
+    min-width: 100vh;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-    height: 600px;
     background-color: var(--dark-bg-color);
-    flex-direction: column;
 }
 
 .features {
@@ -263,6 +266,7 @@ address {
 }
 
 .works {
+    padding-top: 95px;
     padding-bottom: 95px;
 }
 
@@ -303,7 +307,18 @@ address {
 }
 
 .our-team {
+    background: #F5F4FA;
     padding-bottom: 95px;
+}
+
+.our-team-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-card-discription {
+    display: flex;
+    align-items: center;
 }
 
 .contacts-item:not(:last-child) {
@@ -357,7 +372,6 @@ footer .logo {
 
 .h-line {
     border-bottom: 1px solid #eee;
-    margin-bottom: 95px;
 }
 
 .portfolio-title {
