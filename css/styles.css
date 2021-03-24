@@ -183,7 +183,6 @@ address {
     padding-bottom: 50px;
 }
 
-
 .site-nav {
     display: flex;
     justify-content: center;
@@ -198,22 +197,17 @@ address {
     background-repeat: 4px;
 }
 
-.site-nav-item {
-    filter: var(--soft-box-shadow);
-}
-
 .filter-btn {
     font-size: var(--base-size);
     font-weight: 500;
     line-height: 1.62;
     color: var(--main-text-color);
     padding: 6px 22px;
-    background-color: var(--main-bg-color);
+    background-color: #F5F4FA;
     border: none;
     cursor: pointer;
     display: inline-flex;
     border-radius: var(--small-circled);
-    filter: var(--soft-box-shadow);
 }
 
 .filter-btn:active {
@@ -228,6 +222,7 @@ address {
 .filter-btn:hover {
     background-color: #2196f3;
     color: var(--main-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .page-title {
