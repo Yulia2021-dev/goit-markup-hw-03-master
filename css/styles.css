@@ -125,15 +125,12 @@ address {
     padding: 95px 0;
 }
 
-.features .list {
+.features .list-item {
     width: 270px;
 }
 
-.features p {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    color: var(--secondary-color);
+.features .list-item:not(:last-child) {
+    margin-right: 20px;
 }
 
 .image-grid {
@@ -181,16 +178,15 @@ address {
     outline: none;
 }
 
-.button-item {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+.secondary-nav {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
+
 .site-nav {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .site-nav .button {
@@ -266,7 +262,6 @@ address {
 }
 
 .works {
-    padding-top: 95px;
     padding-bottom: 95px;
 }
 
@@ -293,8 +288,7 @@ address {
     line-height: 1.2;
     letter-spacing: 3%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .team-item {
@@ -303,11 +297,11 @@ address {
     line-height: 19px;
     text-align: center;
     color: var(--secondary-color);
-    padding-bottom: 30px;
 }
 
 .our-team {
     background: #F5F4FA;
+    padding-top: 95px;
     padding-bottom: 95px;
 }
 
@@ -316,21 +310,24 @@ address {
     padding-bottom: 30px;
 }
 
-.team-card-discription {
-    display: flex;
-    align-items: center;
+.team-card-body {
+    padding: 30px;
 }
 
-.contacts-item:not(:last-child) {
+.footer-contacts {
+    font-style: normal;
+}
+
+.footer-contacts-item:not(:last-child) {
     padding-bottom: 10px;
     color: var(--main-bg-color);
 }
 
-.contacts-item .link {
+.footer-contacts-item .link {
     color: var(--secondary-color);
 }
 
-.contacts-item .link:hover {
+.footer-contacts-item .link:hover {
     color: var(--accent-color);
 }
 
