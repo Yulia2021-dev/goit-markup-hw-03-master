@@ -179,10 +179,13 @@ address {
 }
 
 .secondary-nav {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
+.main-section {
+    padding-top: 95px;
+    padding-bottom: 90px;
+}
 .site-nav {
     display: flex;
     justify-content: center;
@@ -245,6 +248,13 @@ address {
     text-transform: uppercase;
     color: var( --main-text-color);
     margin-bottom: 10px;
+}
+
+.page-title-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
 }
 
 .section-title {
@@ -311,6 +321,7 @@ address {
 
 .footer-contacts {
     font-style: normal;
+    font-size: 14px;
 }
 
 .footer-contacts-item:not(:last-child) {
@@ -342,6 +353,7 @@ footer .logo {
 .logo-highlight {
     color: var(--accent-color);
 }
+
 
 .portfolio {
     font-size: 18px;
